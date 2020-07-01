@@ -30,3 +30,7 @@ h1 {
     font-size: 30px;
     border-radius: 10px;
   }
+
+  .grid-container {
+      color: whitesmoke;
+  }
