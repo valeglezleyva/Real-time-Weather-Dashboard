@@ -1,0 +1,32 @@
+.container {
+    margin: 0px;
+}
+
+.dashboard {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    background: rgba(26, 26, 24, 0.699);
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .grid-container > div {
+    background-color: teal;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 10px;
+  }
